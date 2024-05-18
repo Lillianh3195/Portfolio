@@ -22,7 +22,7 @@ const Projects = (props) => {
               {project.name === "Rhythm Resonance" ? (
                 <a
                   href={project.link}
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                   className="btn btn-secondary"
                   style={{ margin: "10px" }}
                 >
@@ -30,7 +30,7 @@ const Projects = (props) => {
                 </a>
               ) : null}
             </div>
-            <a href={project.url} target="_blank" className="btn btn-primary">
+            <a href={project.url} target="_blank" rel="noreferrer" className="btn btn-primary">
               {project.url}
             </a>
           </div>
