@@ -4,7 +4,11 @@ const Home = () => {
   return (
     <>
       <div className="home vh-100">
-        <img src="/images/profile.png" class="img-thumbnail rounded-circle" />
+        <img
+          src="/images/profile.png"
+          class="img-thumbnail rounded-circle"
+          alt="profile"
+        />
         <h1>Lillian Hoang</h1>
         <p>Digital Artist and Software Engineer</p>
         <p>
